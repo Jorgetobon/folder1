@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255); 
+    display: flex;
+    height: 100vh; 
+   
+}
+
+aside {
+    
+    width: 100px; 
+    background-color: #a4e4ff; 
+    height: 100vh; 
+    position: fixed; 
+    z-index: 0; 
+   
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.header-contenido {
+    text-align: left;
+}
+
+.foto {
+    width: 90%; 
+    padding: 0%;
+    margin: 0%;
+    position: relative;    
+    z-index: 1; 
+    
+    
+     
+}
+
+
+main {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-left: 30px; 
+}
+
+section {
+    margin-top: 20px; 
+    text-align: center;
+    padding: 20px; 
+   
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    z-index: 1; 
+    padding-top: 30px;
+}
+.filas{
+    padding-left: 100px;
+    padding: 20px;
+}
+
+.filas-derecha{
+    padding-left: 20px;
+    padding: 20px;
+}
+h1{
+    font-size: 50px;
+    text-align: left;
+}
+
+.columna {
+    width: 50%;
+    display: flex;
+    flex-direction: column; 
+}
+
+.columna-izquierda {
+    width: 50%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: left;
+}
+
+section h2 {
+    writing-mode: horizontal-tb; 
+    
+}
+      
+
+
+.contacto-lista li {
+    margin-bottom: 10px; 
+   
+}
